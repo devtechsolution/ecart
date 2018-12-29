@@ -24,6 +24,7 @@ public class PaypalConfig {
     private String clientSecret;
 	@Value("${paypal.mode}")
     private String mode;
+	
     
 	@Bean
 	public Map<String, String> paypalSdkConfig(){
